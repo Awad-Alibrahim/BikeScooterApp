@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-
+import { AuthContext } from '../context/AuthContext';
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
